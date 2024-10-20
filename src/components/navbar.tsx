@@ -19,9 +19,12 @@ const Navbar = () => {
           <nav className="w-full flex py-2 justify-between items-center navbar">
             <img src={logoimg} className="w-[55px]" />
             <div className="text-4xl text-[#00DED1] font-extrabold font-Sora">SASHA</div>
-
             <ul className="list-none sm:flex hidden justify-end items-center flex-1">
-              <button type="button" className="text-white bg-[#00DED1] hover:bg-[#2bc2b8] focus:outline-none font-medium rounded-lg text-sm px-4 py-2.5 text-center me-2 mb-2">BUY SASHA</button>
+              <a href='https://kas.fyi/token/krc20/SASHA' target="_blank" className="text-neutral-600 dark:text-neutral-200">
+                <button type="button" className="text-white bg-[#00DED1] hover:bg-[#2bc2b8] focus:outline-none font-medium rounded-lg text-sm px-4 py-2.5 text-center me-2 mb-2">
+                  BUY SASHA
+                </button>
+              </a>
             </ul>
 
             <div className="sm:hidden flex flex-1 justify-end items-center">
@@ -30,11 +33,13 @@ const Navbar = () => {
                 <SheetContent className="w-[300px] sm:w-[540px]">
                   <SheetHeader>
                     <SheetDescription>
-
                       <div className="flex flex-col items-center pt-10">
-                        <button type="button" className="text-white bg-[#00DED1] hover:bg-[#2bc2b8] focus:outline-none font-medium rounded-lg text-sm px-4 py-2.5 text-center me-2 mb-2">BUY SASHA</button>
+                        <a href='https://kas.fyi/token/krc20/SASHA' target="_blank" className="text-neutral-600 dark:text-neutral-200">
+                          <button type="button" className="text-white bg-[#00DED1] hover:bg-[#2bc2b8] focus:outline-none font-medium rounded-lg text-sm px-4 py-2.5 text-center me-2 mb-2">
+                            BUY SASHA
+                          </button>
+                        </a>
                       </div>
-
                     </SheetDescription>
                   </SheetHeader>
                 </SheetContent>

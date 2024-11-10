@@ -6,6 +6,7 @@ import Cards from "./components/cards"
 import SectionOne from "./components/sectionOne"
 import SectionFour from "./components/sectionFour"
 import Jumbotron from "./components/jumbotron"
+import Roadmap from "./components/roadmap"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <SectionHero />
       <SectionOne />
       <Cards />
+      <Roadmap />
       <Jumbotron />
       <SectionFour />
       <Footer />
